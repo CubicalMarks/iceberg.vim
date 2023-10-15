@@ -156,7 +156,7 @@ if &background == 'light'
   endif
 else
   hi Normal ctermbg=234 ctermfg=252 guibg=#161821 guifg=#c6c8d1
-  hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=#1e2132 guifg=NONE
+  hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=#010104 guifg=NONE
   hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=#1e2132 guifg=NONE
   hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE guibg=#1e2132 guifg=NONE
   hi Comment ctermfg=242 guifg=#6b7089
@@ -183,7 +183,7 @@ else
   hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
   hi Include ctermfg=110 guifg=#84a0c6
   hi IncSearch cterm=reverse ctermfg=NONE gui=reverse guifg=NONE term=reverse
-  hi LineNr ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
+  hi LineNr ctermbg=0 ctermfg=239 guibg=NONE guifg=#444b71
   hi MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
   hi ModeMsg ctermfg=242 guifg=#6b7089
   hi MoreMsg ctermfg=150 guifg=#b4be82
@@ -267,6 +267,7 @@ else
   hi DiagnosticSignError ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi DiagnosticFloatingHint ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#c6c8d1
   hi icebergALAccentRed ctermfg=203 guifg=#e27878
+  hi CocCodeLens guifg=#404050 gui=italic guibg=NONE
 
   if has('nvim')
     let g:terminal_color_0 = '#1e2132'
