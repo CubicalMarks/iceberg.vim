@@ -196,7 +196,7 @@ else
   hi Question ctermfg=150 guifg=#b4be82
   hi QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#c6c8d1
   hi Search ctermbg=216 ctermfg=234 guibg=#e4aa80 guifg=#392313
-  hi SignColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
+  hi SignColumn ctermbg=235 ctermfg=239 guibg=NONE guifg=#444b71
   hi Special ctermfg=150 guifg=#b4be82
   hi SpecialKey ctermfg=240 guifg=#515e97
   hi SpellBad ctermbg=95 ctermfg=252 gui=undercurl guifg=NONE guisp=#e27878
@@ -219,7 +219,7 @@ else
   hi Todo ctermbg=234 ctermfg=150 guibg=#45493e guifg=#b4be82
   hi Type ctermfg=110 gui=NONE guifg=#84a0c6
   hi Underlined cterm=underline ctermfg=110 gui=underline guifg=#84a0c6 term=underline
-  hi VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#0f1117 guifg=#0f1117
+  hi VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#1f2127 guifg=#1f2127
   hi Visual ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
   hi VisualNOS ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
   hi WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
