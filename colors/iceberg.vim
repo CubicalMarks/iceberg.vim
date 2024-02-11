@@ -159,7 +159,7 @@ else " background=dark
   hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=#010104 guifg=NONE
   hi CursorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=#1e2132 guifg=NONE
   hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE guibg=#1e2132 guifg=NONE
-  hi Comment ctermfg=242 guifg=#6b7089
+  hi Comment ctermfg=242 guifg=#7b8099
   hi Conceal ctermbg=234 ctermfg=242 guibg=#161821 guifg=#6b7089
   hi Constant ctermfg=140 guifg=#a093c7
   hi Cursor ctermbg=252 ctermfg=234 guibg=#c6c8d1 guifg=#161821
@@ -191,7 +191,7 @@ else " background=dark
   hi Pmenu ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#c6c8d1
   hi PmenuSbar ctermbg=236 ctermfg=NONE guibg=#3d425b guifg=NONE
   hi PmenuSel ctermbg=240 ctermfg=255 guibg=#5b6389 guifg=#eff0f4
-  hi PmenuThumb ctermbg=251 ctermfg=NONE guibg=#c6c8d1 guifg=NONE
+  hi PmenuThumb ctermbg=251 ctermfg=NONE guibg=#5d627b guifg=NONE
   hi PreProc ctermfg=150 guifg=#b4be82
   hi Question ctermfg=150 guifg=#b4be82
   hi QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#c6c8d1
@@ -213,7 +213,7 @@ else " background=dark
   hi Structure ctermfg=110 guifg=#84a0c6
   hi TabLine cterm=NONE ctermbg=233 ctermfg=238 gui=NONE guibg=#0f1117 guifg=#3e445e
   hi TabLineFill cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
-  hi TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#161821 guifg=#9a9ca5
+  hi TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#192133 guifg=#aaacb5
   hi TermCursorNC ctermbg=242 ctermfg=234 guibg=#6b7089 guifg=#161821
   hi Title ctermfg=216 gui=NONE guifg=#e2a478
   hi Todo ctermbg=234 ctermfg=150 guibg=#45493e guifg=#b4be82
@@ -449,6 +449,64 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage icebergNormalFg
 hi! link typescriptNull Constant
 hi! link typescriptParens icebergNormalFg
+hi! link CocVirtualText Comment
+hi! link CocCursorRange Search
+hi! link CocDeprecatedHighlight CocStrikeThrough
+hi! link CocErrorFloat DiagnosticError
+hi! link CocErrorHighlight DiagnosticUnderlineError
+hi! link CocErrorSign DiagnosticSignError
+hi! link CocErrorVirtualText DiagnosticVirtualTextError
+hi! link CocFadeOut Conceal
+hi! link CocFloatActive CocSearch
+hi! link CocFloatDividingLine CocVirtualText
+hi! link CocFloatSbar PmenuSbar
+hi! link CocFloatThumb PmenuThumb
+hi! link CocFloating NormalFloat
+hi! link CocHighlightRead CocHighlightText
+hi! link CocHighlightText CursorColumn
+hi! link CocHighlightWrite CocHighlightText
+hi! link CocHintFloat DiagnosticHint
+hi! link CocHintHighlight DiagnosticUnderlineHint
+hi! link CocHintSign DiagnosticSignHint
+hi! link CocHintVirtualText DiagnosticVirtualTextHint
+hi! link CocHoverRange Search
+hi! link CocInfoFloat DiagnosticInfo
+hi! link CocInfoHighlight DiagnosticUnderlineInfo
+hi! link CocInfoSign DiagnosticSignInfo
+hi! link CocInfoVirtualText DiagnosticVirtualTextInfo
+hi! link CocInlayHintParameter CocInlayHint
+hi! link CocInlayHintType CocInlayHint
+hi! link CocInputBoxVirtualText CocVirtualText
+hi! link CocLinkedEditing CocCursorRange
+hi! link CocListMode ModeMsg
+hi! link CocListPath Comment
+hi! link CocListSearch CocSearch
+hi! link CocMarkdownCode markdownCode
+hi! link CocMarkdownHeader markdownH1
+hi! link CocNotificationButton CocUnderline
+hi! link CocNotificationError CocErrorFloat
+hi! link CocNotificationInfo CocInfoFloat
+hi! link CocNotificationWarning CocWarningFloat
+hi! link CocPumDeprecated CocStrikeThrough
+hi! link CocPumDetail Comment
+hi! link CocPumMenu CocFloating
+hi! link CocPumSearch CocSearch
+hi! link CocPumShortcut Comment
+hi! link CocPumVirtualText CocVirtualText
+hi! link CocSelectedRange CocHighlightText
+hi! link CocSemDecorator Identifier
+hi! link CocSemStruct Identifier
+hi! link CocSnippetVisual Visual
+hi! link CocSymbolDefault MoreMsg
+hi! link CocTreeDescription Comment
+hi! link CocTreeOpenClose CocBold
+hi! link CocTreeSelected CursorLine
+hi! link CocTreeTitle Title
+hi! link CocUnusedHighlight CocFadeOut
+hi! link CocWarningFloat DiagnosticWarn
+hi! link CocWarningHighlight DiagnosticUnderlineWarn
+hi! link CocWarningSign DiagnosticSignWarn
+hi! link CocWarningVirtualText DiagnosticVirtualTextWarn
 
 if has('nvim-0.8')
   hi! link @attribute TSAttribute
