@@ -267,7 +267,8 @@ else " background=dark
   hi DiagnosticSignError ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi DiagnosticFloatingHint ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#c6c8d1
   hi icebergALAccentRed ctermfg=203 guifg=#e27878
-  hi CocCodeLens guifg=#404050 gui=italic guibg=NONE
+  hi CocCodeLens guifg=#454555 gui=italic guibg=NONE
+  hi CocFadeOut guifg=#454555 gui=italic guibg=NONE
 
   if has('nvim')
     let g:terminal_color_0 = '#1e2132'
@@ -456,7 +457,6 @@ hi! link CocErrorFloat DiagnosticError
 hi! link CocErrorHighlight DiagnosticUnderlineError
 hi! link CocErrorSign DiagnosticSignError
 hi! link CocErrorVirtualText DiagnosticVirtualTextError
-hi! link CocFadeOut Conceal
 hi! link CocFloatActive CocSearch
 hi! link CocFloatDividingLine CocVirtualText
 hi! link CocFloatSbar PmenuSbar
