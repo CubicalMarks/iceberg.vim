@@ -183,7 +183,7 @@ else " background=dark
   hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
   hi Include ctermfg=110 guifg=#84a0c6
   hi IncSearch cterm=reverse ctermfg=NONE gui=reverse guifg=NONE term=reverse
-  hi LineNr ctermbg=0 ctermfg=239 guibg=NONE guifg=#444b71
+  hi LineNr ctermbg=0 ctermfg=239 guibg=#030305 guifg=#444b71
   hi MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
   hi ModeMsg ctermfg=242 guifg=#6b7089
   hi MoreMsg ctermfg=150 guifg=#b4be82
@@ -196,7 +196,7 @@ else " background=dark
   hi Question ctermfg=150 guifg=#b4be82
   hi QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#c6c8d1
   hi Search ctermbg=216 ctermfg=234 guibg=#e4aa80 guifg=#392313
-  hi SignColumn ctermbg=235 ctermfg=239 guibg=NONE guifg=#444b71
+  hi SignColumn ctermbg=235 ctermfg=239 guibg=#030305 guifg=#444b71
   hi Special ctermfg=150 guifg=#b4be82
   hi SpecialKey ctermfg=240 guifg=#515e97
   hi SpellBad ctermbg=95 ctermfg=252 gui=undercurl guifg=NONE guisp=#e27878
@@ -219,7 +219,7 @@ else " background=dark
   hi Todo ctermbg=234 ctermfg=150 guibg=#45493e guifg=#b4be82
   hi Type ctermfg=110 gui=NONE guifg=#84a0c6
   hi Underlined cterm=underline ctermfg=110 gui=underline guifg=#84a0c6 term=underline
-  hi VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=NONE guifg=#1f2127
+  hi VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#030305 guifg=#1f2127
   hi Visual ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
   hi VisualNOS ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
   hi WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
@@ -235,10 +235,10 @@ else " background=dark
   hi EasyMotionTarget ctermfg=150 guifg=#b4be82
   hi EasyMotionTarget2First ctermfg=216 guifg=#e2a478
   hi EasyMotionTarget2Second ctermfg=216 guifg=#e2a478
-  hi GitGutterAdd ctermbg=235 ctermfg=150 guibg=NONE guifg=#b4be82
-  hi GitGutterChange ctermbg=235 ctermfg=109 guibg=NONE guifg=#89b8c2
-  hi GitGutterChangeDelete ctermbg=235 ctermfg=109 guibg=NONE guifg=#89b8c2
-  hi GitGutterDelete ctermbg=235 ctermfg=203 guibg=NONE guifg=#e27878
+  hi GitGutterAdd ctermbg=235 ctermfg=150 guibg=#030305 guifg=#b4be82
+  hi GitGutterChange ctermbg=235 ctermfg=109 guibg=#030305 guifg=#89b8c2
+  hi GitGutterChangeDelete ctermbg=235 ctermfg=109 guibg=#030305 guifg=#89b8c2
+  hi GitGutterDelete ctermbg=235 ctermfg=203 guibg=#030305 guifg=#e27878
   hi gitmessengerEndOfBuffer ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
   hi gitmessengerPopupNormal ctermbg=235 ctermfg=252 guibg=#1e2132 guifg=#c6c8d1
   hi Sneak ctermbg=140 ctermfg=234 guibg=#a093c7 guifg=#161821
