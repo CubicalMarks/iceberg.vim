@@ -177,7 +177,7 @@ else " background=dark
   hi NonText ctermfg=236 guifg=#242940
   hi Whitespace ctermfg=236 guifg=#242940
   hi Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
-  hi FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
+  hi FoldColumn ctermbg=235 ctermfg=239 guibg=#030305 guifg=#444b71
   hi Function ctermfg=110 guifg=#84a0c6
   hi Identifier cterm=NONE ctermfg=109 guifg=#89b8c2
   hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
