@@ -269,6 +269,7 @@ else " background=dark
   hi icebergALAccentRed ctermfg=203 guifg=#e27878
   hi CocCodeLens guifg=#454555 gui=italic guibg=NONE
   hi CocFadeOut guifg=#454555 gui=italic guibg=NONE
+  hi CocMenuSel ctermbg=240 guibg=#5b6389
 
   if has('nvim')
     let g:terminal_color_0 = '#1e2132'
@@ -461,7 +462,7 @@ hi! link CocFloatActive CocSearch
 hi! link CocFloatDividingLine CocVirtualText
 hi! link CocFloatSbar PmenuSbar
 hi! link CocFloatThumb PmenuThumb
-hi! link CocFloating NormalFloat
+hi! link CocFloating Pmenu
 hi! link CocHighlightRead CocHighlightText
 hi! link CocHighlightText CursorColumn
 hi! link CocHighlightWrite CocHighlightText
